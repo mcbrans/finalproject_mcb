@@ -1,0 +1,98 @@
+body {
+  width: 1400px;
+  background-image: url(./Images/earth.gif);
+  background-size: 200px;
+}
+
+.Heading {
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 575px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  border-style: solid;
+  border-color: black;
+  border-width: medium;
+  border-radius: 4px;
+  padding: 15px 60px;
+  color: black;
+  font-size: 45px;
+  font-family: Inconsolata;
+  font-weight:400;
+  background-color: #f2ffa5;
+}
+
+.Readings {
+  width: 800px;
+  float: left;
+  margin: 100px 270px;
+  border-style: solid;
+  border-color: black;
+  border-width: medium;
+  padding: 40px 30px;
+  padding-top: 20px;
+  background-color: white;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  text-align: center;
+}
+
+.Readings:hover {
+  background-color: Lime;
+}
+
+h1 {
+  font-family: Inconsolata;
+  font-size: 50px;
+  text-align: center;
+  text-shadow: 1px 1px #66ff33;
+}
+
+h2 {
+  font-family: Inconsolata;
+  font-size: 40px;
+  text-align: center;
+  padding: 30px;
+}
+
+h4 {
+  margin: 20px;
+  padding: 20px;
+  font-family: Inconsolata;
+  font-size: 40px;
+  text-shadow: 1px 1px #66ff33;
+  text-align: center;
+  clear: both;
+}
+
+a {
+  text-align: right;
+}
+
+span {
+  text-shadow: 1px 1px #66ff33;
+  font-style: oblique;
+}
+
+p {
+  text-align: center;
+}
+
+li {
+  list-style-type: circle;
+  line-height: inherit;
+  margin: 10px;
+  padding: 10px;
+  font-family: Inconsolata;
+  font-size: 20px;
+}
+
+/* Large desktop */
+@media (min-width: 1200px) { ... }
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { ... }
+/* Landscape phone to portrait tablet */
+@media (min-width: 481px) and (max-width: 767px) { ... }
+/* Landscape phones and down */
+@media (max-width: 480px) { ... }

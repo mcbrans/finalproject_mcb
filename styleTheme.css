@@ -1,0 +1,112 @@
+body {
+  width: 1400px;
+}
+
+.ChallengeHome {
+    background-image: url(./Images/Home.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ChallengeWork {
+  background-image: url(./Images/Office.jpg);
+}
+
+.ChallengeTravel {
+  background-image: url(./Images/Travel.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ChallengeGoingOut {
+  background-image: url(./Images/GoingOut.jpg);
+  background-repeat: round;
+}
+
+.ChallengeTheme {
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 545px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  border-style: solid;
+  border-color: black;
+  border-width: medium;
+  border-radius: 4px;
+  padding: 15px 60px;
+  color: black;
+  font-size: 45px;
+  font-family: Inconsolata;
+  font-weight:400;
+  background-color: #f2ffa5;
+}
+
+.Challenge {
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width: 350px;
+  height: 450px;
+  margin: 60px 40px;
+  margin-left: 170px;
+  border-style: solid;
+  border-color: black;
+  border-width: medium;
+  padding: 60px 40px;
+  font-size: 25px;
+  font-family: Montserrat;
+  font-weight: 400;
+  float: left;
+  background-color: #f2ffa5;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+.Challenge:hover {
+background-color: Lime;
+}
+
+p {
+  padding: 10px;
+  text-decoration: underline;
+  text-shadow: 1px 1px black;
+}
+
+h1 {
+  font-family: Inconsolata;
+  font-size: 50px;
+  text-align: center;
+  text-shadow: 1px 1px #66ff33;
+}
+
+h2 {
+  padding: 20px;
+}
+
+h4 {
+  margin: 20px;
+  padding: 20px;
+  font-family: Inconsolata;
+  font-size: 40px;
+  text-shadow: 1px 1px #66ff33;
+  text-align: center;
+  clear: both;
+}
+
+img {
+  margin: 10px;
+  height: 190px;
+  border-radius: 8px;
+}
+
+/* Large desktop */
+@media (min-width: 1200px) { ... }
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { ... }
+/* Landscape phone to portrait tablet */
+@media (min-width: 481px) and (max-width: 767px) { ... }
+/* Landscape phones and down */
+@media (max-width: 480px) { ... }
